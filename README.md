@@ -6,10 +6,10 @@
 
 > The messages are in JSON format, see ./example directory for message sample.
 
-> After message processing, the data is stored in file database H2, database web console is enables and accessible with the following credentials:
+> After message processing, the data is stored in file database H2. Database web console is enabled and accessible with the following credentials:
 > - url: http://localhost:8080/h2/
 > - jdbc url: jdbc:h2:file:./weather-data-h2-db
 > - user name: admin
 > - password: pass 
 
-> Docker file for kafka and micro-service located in ./deploy directory. 
+> Docker files for kafka and micro-service located in ./deploy directory. 
